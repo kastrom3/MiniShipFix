@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniShipFix", "MiniShipFix\MiniShipFix\MiniShipFix.csproj", "{B854BBF0-EE32-4976-B5EC-F3ECFE39318F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "MiniShipFix\ZZCakeBuild\CakeBuild.csproj", "{885AFD0C-0E39-4A2F-8438-53A40C22EFDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B854BBF0-EE32-4976-B5EC-F3ECFE39318F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B854BBF0-EE32-4976-B5EC-F3ECFE39318F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B854BBF0-EE32-4976-B5EC-F3ECFE39318F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B854BBF0-EE32-4976-B5EC-F3ECFE39318F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885AFD0C-0E39-4A2F-8438-53A40C22EFDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885AFD0C-0E39-4A2F-8438-53A40C22EFDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885AFD0C-0E39-4A2F-8438-53A40C22EFDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885AFD0C-0E39-4A2F-8438-53A40C22EFDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7198A35D-9BF5-4853-85AB-A6A7EC9E7234}
+	EndGlobalSection
+EndGlobal

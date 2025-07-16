@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "minishipfix",
+    "name": "Mini ShipFix",
+    "authors": [
+        "Kastrom3"
+    ],
+    "description": "Fixes boat speed and also a bug with the ancient ship texture",
+    "version": "1.0.1",
+    "dependencies": {
+        "game": "1.20.12"
+    }
+}

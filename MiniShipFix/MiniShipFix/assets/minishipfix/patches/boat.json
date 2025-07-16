@@ -1,0 +1,152 @@
+[
+	{
+		"file": "game:entities/water/boat",
+		"op": "replace",
+		"path": "/client/texturesByType",
+		"value": {
+			"*-bamboo": {},
+			"*-aged": {
+				"material": { "base": "game:block/wood/debarked/{material}" },
+				"oak": { "base": "game:block/wood/debarked/{material}" },
+				"oak1": { "base": "game:block/wood/planks/aged/generic*" },
+				"birch1": { "base": "game:block/wood/planks/aged/generic*" },
+				"plainoak": { "base": "game:block/wood/debarked/{material}" }
+			},
+			"*": {
+				"material": { "base": "game:block/wood/debarked/{material}" },
+				"oak": { "base": "game:block/wood/debarked/{material}" },
+				"oak1": { "base": "game:block/wood/planks/{material}*" },
+				"birch1": { "base": "game:block/wood/planks/{material}*" },
+				"plainoak": { "base": "game:block/wood/debarked/{material}" }
+			}
+		}
+	},
+	{
+		"file": "game:entities/water/boat",
+		"op": "replace",
+		"path": "/attributes",
+		"value": {
+			"deconstructible": true,
+			"deconstructDropsByType": {
+				"boat-sailed-*": [
+					{
+						"type": "item",
+						"code": "plank-{material}",
+						"quantity": 32
+					},
+					{
+						"type": "item",
+						"code": "plank-{material}",
+						"quantity": 32
+					},
+					{
+						"type": "item",
+						"code": "plank-{material}",
+						"quantity": 32
+					},
+					{
+						"type": "item",
+						"code": "plank-{material}",
+						"quantity": 32
+					},
+					{
+						"type": "item",
+						"code": "plank-{material}",
+						"quantity": 16
+					},
+					{
+						"type": "block",
+						"code": "supportbeam-{material}",
+						"quantity": 22
+					},
+					{
+						"type": "item",
+						"code": "rope",
+						"quantity": 13
+					},
+					{
+						"type": "block",
+						"code": "linen-normal-down",
+						"quantity": 15
+					}
+				],
+				"boat-raft-bamboo": [
+					{
+						"type": "item",
+						"code": "bamboostakes",
+						"quantity": 9
+					},
+					{
+						"type": "item",
+						"code": "rope",
+						"quantity": 1
+					}
+				],
+				"boat-raft-*": [
+					{
+						"type": "block",
+						"code": "log-placed-{material}-ud",
+						"quantity": 6
+					},
+					{
+						"type": "item",
+						"code": "rope",
+						"quantity": 1
+					}
+				]
+			},
+			"shouldSwivelFromMotion": false,
+			"speedMultiplierByType": {
+				"boat-raft-*": 1.0,
+				"boat-sailed-*": 1.0
+			},
+			"forwardSpeedMultiplierByType": {
+				"boat-raft-*": 0.9,
+				"boat-sailed-*": 1.8
+			},
+			"backwardSpeedMultiplierByType": {
+				"boat-raft-*": 0.9,
+				"boat-sailed-*": 0.5
+			},
+			"angularSpeedMultiplierByType": {
+				"boat-raft-*": 1.4,
+				"boat-sailed-*": 0.6
+			},
+			"bowAngleByType": {
+				"boat-raft-*": 90.0,
+				"boat-sailed-*": 45.0
+			},
+			"rollAngleByType": {
+				"boat-raft-*": 15.0,
+				"boat-sailed-*": 30.0
+			},
+			"swimmingOffsetYByType": {
+				"boat-raft-*": 0.45,
+				"boat-sailed-*": 1
+			},
+			"requiresPaddlingToolByType": {
+				"boat-raft-*": true
+			},
+			"rightClickPickupByType": {
+				"boat-raft-*": true
+			},
+			"unfurlSailsByType": {
+				"boat-sailed-*": true
+			},
+			"mountAnimationsByType": {
+				"boat-raft-*": {
+					"idle": "sitflooridle",
+					"ready": "crudeOarReady",
+					"forwards": "crudeOarForward",
+					"backwards": "crudeOarBackward"
+				},
+				"boat-sailed-*": {
+					"idle": "sitboatidle",
+					"ready": "",
+					"forwards": "",
+					"backwards": ""
+				}
+			}
+		}
+	}
+]
